@@ -5,13 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>STARK INDUSTRIES // Quantum Atom Collider & Element Synthesizer</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚛️</text></svg>">
-  <link rel="stylesheet" href="styles/stark-hud.css">
+  <link rel="stylesheet" href="/styles/stark-hud.css">
 
   <!-- Google MediaPipe Hands & Camera Utils -->
   <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils@0.4.1675466862/camera_utils.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands@0.4.1675469240/hands.js" crossorigin="anonymous"></script>
 
-  <!-- Modern ES Module Importmap for Three.js and Addons -->
+  <!-- Modern ES Module Importmap for Three.js and Addons (Dev/Browser fallback) -->
   <script type="importmap">
   {
     "imports": {
@@ -29,6 +29,6 @@
   <div id="hud-container"></div>
 
   <!-- Main Application Script -->
-  <script type="module" src="src/main.js"></script>
+  <script type="module" src="/src/main.js"></script>
 </body>
 </html>
